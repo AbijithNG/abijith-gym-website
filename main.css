@@ -1,0 +1,179 @@
+body{
+    background-color:black;
+    font-family: sans-serif;
+
+}
+h1{
+    font-size: 100px;
+    color:#e33201;
+    text-align: center;
+}
+h2 {
+    font-size: 80px;
+    color:#e33201;
+    margin-top: 100px;
+    margin-left: 75px;
+}
+.ardiv{
+    display: flex;
+    color:white;
+    border: 1px outset black;
+    font-size: 22px;
+}
+h3{
+    margin-left: 800px;
+    margin-top: 10px;
+    color: black;
+    font-size: 80px;
+}
+.myDiv{
+    border: 1px inset #e33201;
+    background-color: #e33201;
+    text-align: center;
+}
+.DDiv{
+    border: 1px outset #e33201;
+    background-color: #e33201;
+    font-size: 22px;
+    color: white;
+}
+.div2{
+    border: 1px inset black;
+    font-size: 80px;
+    color:#e33201;   
+    margin-top: 0px;
+}
+.aryan{
+    color: white;
+    background-color: black;
+    font-size: 22px;
+}
+h5{
+    text-align: center;
+    color:white;
+    font-size: 100px;
+    margin-top: 10px;
+}
+.image{
+    float:right;
+    margin-top: 0px;
+    margin-left: 50%;
+    width: 500px;
+    height: 500px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    color: white;
+    margin-left: 0px;
+    font-size: 30px;
+  }
+.right{
+    flex-basis: 50%;
+    align-items: center;
+}
+.right img{
+    width: 100%;
+}
+.left{
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-left: 0px;
+    padding: 0%;
+}
+.right_1{
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-left: 0px;
+    padding-left: 10%;
+}
+.container_1{
+    width: 100%;
+    display: flex;
+    color: white;
+    margin-left: 0px;
+    font-size: 30px;
+    border: 0px inset #e33201;
+    background-color: #e33201;
+  }
+.left_1 img{
+   width:120%;
+    top: -50%;
+   height: 100%;
+}
+.right_2{
+    flex-basis: 50%;
+    align-items: center;
+    margin-left: 10px;
+}
+.right_2 img{
+    width: 95%;
+    padding: 5%;
+    height: 90%;
+}
+.footer{
+	background: black;
+	color:white;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.footer h1{
+	font-size: 50px;
+    color: white;
+}
+.footer p{
+	font-size: 15px;
+}
+.footer a:link{
+	text-decoration: none;
+	color: #e33201;
+}
+.footer a:visited{
+	text-decoration: none;
+	color: #e33201;
+}
+.footer a:hover{
+	text-decoration: none;
+	color: #e33201;
+}
+.footer a:active{
+	text-decoration: none;
+	color: #e33201;
+}
+.footer i{
+	font-size: 2rem;
+}
+#blue{
+	color:#e33201;
+}
+.homebut{
+    text-align: center;
+}
+.homebut a{
+    text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px;
+    border:#e33201 solid 0.2px;
+    border-radius: 8px;
+}
+.homebut a:hover{
+	color:#e33201;
+	transition: .3s;
+}
+.homebut a:active{
+    text-decoration: none;
+    
+}
+.homebut a:visited{
+    text-decoration: none;
+}
+.homebut a:link{
+    text-decoration: none;
+}
